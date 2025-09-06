@@ -79,12 +79,12 @@ Some key findings from the dashboard:
 
 ---
 
-## 📂 Source Data
+## Source Data
 [E-commerce Sales and Customer Insights Dataset](https://www.kaggle.com/datasets/refiaozturk/e-commerce-sales)  
 
 ---
 
-## 🚀 Next Steps
+## Next Steps
 - Add advanced analytics such as **Customer Lifetime Value (CLV)** and **Cohort Retention**.  
 - Automate reporting in **Looker Studio** for dynamic dashboards.  
 - Integrate with **SQL** for scalable analysis.  
