@@ -4,9 +4,9 @@
 
 ---
 
-## 📂mProjects
+## Projects
 
-### 1. [E-commerce Sales Analysis](./projects/ecommerce-sales-analysis.md)  
+### 1. [E-commerce Sales Analysis](./projects/ecommerce-sales-analysis)  
 - Built with **Google Sheets**  
 - Covers sales trends, customer segmentation, return rates, and top customers  
 - Includes **interactive filters** and pivot table-driven insights  
