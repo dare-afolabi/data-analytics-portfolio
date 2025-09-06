@@ -6,7 +6,8 @@
 
 ## Projects
 
-### 1. [E-commerce Sales Analysis](./ecommerce-sales-analysis)  
+### 1. [E-commerce Sales Analysis](./ecommerce-sales-analysis)
+![E-commerce Dashboard Screenshot](./ecommerce-sales-analysis/dashboard.jpg)  
 - Built with **Google Sheets**  
 - Covers sales trends, customer segmentation, return rates, and top customers  
 - Includes **interactive filters** and pivot table-driven insights  
