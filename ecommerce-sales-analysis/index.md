@@ -1,4 +1,6 @@
-# E-commerce Sales Analysis
+---
+title: "E-commerce Sales Analysis"
+---
 
 ## Project Overview
 In today’s fast-paced e-commerce landscape, businesses need clear insights into purchasing behavior and sales trends to stay competitive and maximize revenue.  
