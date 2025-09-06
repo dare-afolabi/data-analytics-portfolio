@@ -48,7 +48,7 @@ A cleaned and transformed dataset was created from raw e-commerce transactions.
 
 ---
 
-## 📑 Key Metrics Tracked
+## Key Metrics Tracked
 - **Customer ID** – unique identifier for purchase tracking  
 - **Gender** – customer segmentation  
 - **Region** – geographical insights  
@@ -62,7 +62,7 @@ A cleaned and transformed dataset was created from raw e-commerce transactions.
 
 ---
 
-## 🔎 Insights
+## Insights
 Some key findings from the dashboard:  
 - **Q4 generated the highest sales**, driven by holiday shopping patterns.  
 - **Electronics dominated sales**, accounting for nearly 90% of revenue.  
@@ -72,7 +72,7 @@ Some key findings from the dashboard:
 
 ---
 
-## 🛠️ Tools Used
+## Tools Used
 - **Google Sheets** – data cleaning, pivot tables, calculated fields  
 - **Google Sheets Charts** – dashboard visualizations  
 - **Formulas** – data transformations (e.g., IF, FILTER, DATE functions)  
