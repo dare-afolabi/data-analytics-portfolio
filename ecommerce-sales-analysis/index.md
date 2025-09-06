@@ -16,7 +16,7 @@ With these insights, e-commerce teams can:
 ---
 
 ## Dashboard
-![E-commerce Dashboard Screenshot](./images/dashboard.jpeg)  
+![E-commerce Dashboard Screenshot](./dashboard.jpeg)  
 
 **Interactive Google Sheets**
 View the live Google Sheet dashboard here:  
