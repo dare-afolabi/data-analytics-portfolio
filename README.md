@@ -14,4 +14,13 @@
 
 ---
 
+### 2. [Personal Finance Analysis](./personal-finance-analysis)
+![E-commerce Dashboard Screenshot](./personal-finance-analysis/dashboard.jpg)
+- Built with **Google Sheets** 
+- Covers spending trends, volatility analysis, and transaction patterns  
+- Highlights fixed vs. variable expenses and high-frequency vs. high-value categories  
+- Includes an interactive filter, pivot table–driven insights, and conditional formatting
+
+---
+
 Stay tuned as I add more projects in areas like **customer retention, finance analytics, and marketing performance**.
