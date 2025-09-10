@@ -21,7 +21,7 @@ With these insights, individuals can:
 **Interactive Google Sheets**:  
 
 View the live Google Sheet dashboard here:  
-[Open Dashboard in Google Sheets](https://docs.google.com/spreadsheets/d/13rD8NMsKVSJqR0aZbuIjD--z2UzZPqs62WMACi9mh7g/edit?usp=drivesdk) 
+[View-only Dashboard in Google Sheets](https://docs.google.com/spreadsheets/d/13rD8NMsKVSJqR0aZbuIjD--z2UzZPqs62WMACi9mh7g/edit?usp=drivesdk) 
 
 [Make a copy to interact with dropdown](https://docs.google.com/spreadsheets/d/13rD8NMsKVSJqR0aZbuIjD--z2UzZPqs62WMACi9mh7g/copy)
 
