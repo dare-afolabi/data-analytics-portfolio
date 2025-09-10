@@ -23,7 +23,7 @@ With these insights, individuals can:
 View the live Google Sheet dashboard here:  
 [Open Dashboard in Google Sheets](https://docs.google.com/spreadsheets/d/13rD8NMsKVSJqR0aZbuIjD--z2UzZPqs62WMACi9mh7g/edit?usp=drivesdk) 
 
-[Make a copy to interact with filters](https://docs.google.com/spreadsheets/d/13rD8NMsKVSJqR0aZbuIjD--z2UzZPqs62WMACi9mh7g/copy)
+[Make a copy to interact with dropdown](https://docs.google.com/spreadsheets/d/13rD8NMsKVSJqR0aZbuIjD--z2UzZPqs62WMACi9mh7g/copy)
 
 ---
 
