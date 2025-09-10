@@ -22,6 +22,7 @@ With these insights, e-commerce teams can:
 
 View the live Google Sheet dashboard here:  
 [Open Dashboard in Google Sheets](https://docs.google.com/spreadsheets/d/10rubzJVFPSoYWgZBLaB9XAg144oszKXX2VnCMkMYYx4/edit?usp=drivesdk)
+[Make a copy to interact with filters](https://docs.google.com/spreadsheets/d/10rubzJVFPSoYWgZBLaB9XAg144oszKXX2VnCMkMYYx4/copy)
 
 ---
 
