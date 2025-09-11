@@ -17,7 +17,7 @@ With these insights, individuals can:
 ---
 
 ## Dashboard
-![Personal Finance Dashboard Screenshot](./dashboard.jpg)  
+![Personal Finance Dashboard Screenshot](./dashboard.jpeg)
 
 **Interactive Google Sheets**:  
 
