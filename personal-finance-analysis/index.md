@@ -1,5 +1,5 @@
 ---
-title: "Personal Finance Analysis"
+title: "Personal Finance Analysis | Google Sheets & Excel Dashboard | Data Analyst Portfolio"
 ---
 
 # Personal Finance Analysis
