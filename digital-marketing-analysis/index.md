@@ -1,7 +1,7 @@
 ---
 title: "Digital Marketing Analysis | Google Sheets & Excel Dashboard | Data Analyst Portfolio"
 ---
-[⬅ Back to Portfolio Home](../README.md) | [Next Project ➡](../e-commerce-sales-analysis/index.md)
+[⏮️ Back to Portfolio Home](../README.md) | [Next Project ➡️](../e-commerce-sales-analysis/index.md)
 
 # Digital Marketing Analysis
 
