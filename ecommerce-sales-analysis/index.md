@@ -1,7 +1,7 @@
 ---
 title: "E-commerce Sales Analysis | Google Sheets & Excel Dashboard | Data Analyst Portfolio"
 ---
-[⏮️ Back to Portfolio Home](../README.md); [Previous Project ⬅️](../digital-marketing-analysis/index.md); [Next Project ➡️](../personal-finance-analysis/index.md)
+[⏮️ Back to Portfolio Home](../README.md); [⬅️ Previous Project](../digital-marketing-analysis/index.md); [➡️ Next Project](../personal-finance-analysis/index.md)
 
 # E-commerce Sales Analysis
 
