@@ -1,5 +1,5 @@
 ---
-title: "E-commerce Sales Analysis"
+title: "E-commerce Sales Analysis | Google Sheets & Excel Dashboard | Data Analyst Portfolio"
 ---
 
 # E-commerce Sales Analysis
