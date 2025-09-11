@@ -25,7 +25,7 @@ View on [GitHub Pages](https://dare-afolabi.github.io/data-analytics-portfolio/)
 ---
 
 ### 3. [Personal Finance Analysis](./personal-finance-analysis)
-![E-commerce Dashboard Screenshot](./personal-finance-analysis/dashboard.jpg)
+![E-commerce Dashboard Screenshot](./personal-finance-analysis/dashboard.jpeg)
 - Built with **Google Sheets** 
 - Covers spending trends, volatility analysis, and transaction patterns  
 - Highlights fixed vs. variable expenses and high-frequency vs. high-value categories  
