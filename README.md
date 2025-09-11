@@ -1,4 +1,4 @@
-# Data Analytics Portfolio  
+# Data Analytics Portfolio
 
  Hi, I’m Dare Afolabi. Here, you’ll find projects where I’ve applied **data analysis, visualization, and business intelligence** skills to real-world datasets.
 
