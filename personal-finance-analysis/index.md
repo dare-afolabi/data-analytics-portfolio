@@ -3,7 +3,7 @@ title: "Personal Finance Analysis | Google Sheets & Excel Dashboard | Data Analy
 ---
 [⏮️ Back to Portfolio Home](../README.md) | [Previous Project ⬅️](../ecommerce-sales-analysis/index.md)
 
-# Personal Finance Analysis
+# Personal Finance Analysis 
 
 ## Project Overview
 
