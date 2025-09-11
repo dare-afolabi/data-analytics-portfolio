@@ -2,6 +2,8 @@
 
  Hi, I’m Dare Afolabi. Here, you’ll find projects where I’ve applied **data analysis, visualization, and business intelligence** skills to real-world datasets.
 
+View on [GitHub Pages](https://dare-afolabi.github.io/data-analytics-portfolio/)
+
 ---
 
 ## Projects
@@ -32,3 +34,5 @@
 ---
 
 Stay tuned as I add more projects in areas like **customer retention, finance analytics, and marketing performance**.
+
+View on [GitHub Pages](https://dare-afolabi.github.io/data-analytics-portfolio/)
