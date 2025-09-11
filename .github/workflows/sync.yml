@@ -1,0 +1,24 @@
+name: Sync README to index
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Copy all README.md to index.md
+        run: |
+          # Find every README.md and duplicate it as index.md in the same folder
+          find . -type f -name "README.md" -exec sh -c 'cp "$1" "$(dirname "$1")/index.md"' _ {} \;
+
+      - name: Commit changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add .
+          git commit -m "Sync README.md to index.md across repo" || echo "No changes to commit"
+          git push
