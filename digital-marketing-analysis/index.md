@@ -1,3 +1,6 @@
+---
+title: "Digital Marketing Analysis | Google Sheets & Excel Dashboard | Data Analyst Portfolio"
+---
 
 # Digital Marketing Analysis
 
