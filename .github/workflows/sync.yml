@@ -12,9 +12,14 @@ jobs:
 
       - name: Copy all README.md to index.md
         run: |
-          # Find every README.md and duplicate it as index.md in the same folder
-          find . -type f -name "README.md" -exec sh -c 'cp "$1" "$(dirname "$1")/index.md"' _ {} \;
-
+          # Loop through all subdirectories
+          for d in $(find . -type d); do
+            if [ -f "$d/README.md" ] && [ ! -f "$d/index.md" ]; then
+              cp "$d/README.md" "$d/index.md"
+              echo "Created $d/index.md"
+            fi
+          done
+          
       - name: Commit changes
         run: |
           git config --global user.name 'github-actions[bot]'
