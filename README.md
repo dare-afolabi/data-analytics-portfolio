@@ -31,6 +31,13 @@ View on [GitHub Pages](https://dare-afolabi.github.io/data-analytics-portfolio/)
 - Highlights fixed vs. variable expenses and high-frequency vs. high-value categories  
 - Includes an interactive filter, pivot table–driven insights, and conditional formatting
 
+insights  
+
+---
+
+### 4. [Loan Default Risk Prediction](./loan-defaul-risk-prediction)
+Built with **Jupyter**, this notebook develops a machine learning model to predict the likelihood of loan defaults using borrower demographic, financial, and credit data. The model could potentially help financial institutions assess applicant risk, minimize credit losses, and improve lending strategies.
+
 ---
 
 Stay tuned as I add more projects in areas like **customer retention, finance analytics, and marketing performance**.
