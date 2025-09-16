@@ -1,7 +1,7 @@
 ---
 title: "Personal Finance Analysis | Google Sheets & Excel Dashboard | Data Analyst Portfolio"
 ---
-[⏮️ Back to Portfolio Home](../README.md); [⬅️ Previous Project](../ecommerce-sales-analysis/index.md) | [➡️ Next Project](../loan-default-risk-prediction/index.md)
+[⏮️ Back to Portfolio Home](../README.md); [⬅️ Previous Project](../ecommerce-sales-analysis/index.md); [➡️ Next Project](../loan-default-risk-prediction/index.md)
 
 # Personal Finance Analysis 
 
