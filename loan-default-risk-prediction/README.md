@@ -1,11 +1,9 @@
----
-title: "Loan Default Risk Prediction | Python | Machine Learning | Data Analyst Portfolio"
----
-[⏮️ Back to Portfolio Home](../README.md); [⬅️ Previous Project](../personal-finance-analysis/index.md)
+# Loan Default Risk Prediction 
 
-# Loan Default Risk Prediction
-This notebook presents an optimized workflow for building a model that predicts the likelihood of borrowers defaulting on loans using customer data. By identifying high-risk applicants early, financial institutions can make informed lending decisions, reduce credit losses, and optimize portfolio performance.
+This notebook develops a machine learning workflow to predict the likelihood of loan defaults using borrower demographic, financial, and credit data. The model can help financial institutions assess applicant risk, minimize credit losses, and improve lending strategies.
+
 ---
+
 ### Table of Contents
 1.  Import Libraries
 2.  Load the Dataset
@@ -13,9 +11,16 @@ This notebook presents an optimized workflow for building a model that predicts 
 4.  Preprocessing
 5.  Principal Component Analysis (PCA)
 6.  Model Training and Evaluation
+
 ---
-### Dataset:
-The dataset has been taken from [Coursera's Loan Default Prediction Challenge deposited in Kaggle](https://www.kaggle.com/datasets/nikhil1e9/loan-default). Columns names and descriptions are outlined below:
+
+### Notebook
+[Open Jupyter Notebook](./09142025_Loan_Default_Prediction_Model_Build_Pipeline_DA.ipynb)
+
+---
+
+### Dataset
+The dataset has been taken from [Coursera's Loan Default Prediction Challenge deposited in Kaggle](https://www.kaggle.com/datasets/nikhil1e9/loan-default). The dataset contains **255,347** records with borrower demographic, financial, and credit history as features. All columns names and descriptions are outlined below:
 - `LoanID` - A unique identifier for each loan
 - `Age` - The age of the borrower
 - `Income` - The annual income of the borrower
@@ -34,7 +39,29 @@ The dataset has been taken from [Coursera's Loan Default Prediction Challenge de
 - `LoanPurpose` - The purpose of the loan
 - `HasCoSigner` - Whether the loan has a co-signer
 - `Default` - Indicates whether the loan defaulted or not
+
 ---
-### Notebook:
-[View notebook here](./09142025_Loan_Default_Prediction_Model_Build_Pipeline_DA.ipynb)
+
+### Key Results
+- **Models Tested**: Logistic Regression, Random Forest, and hybrid variations with PCA.
+- **Best Performing Model**: Random Forest Classifier (depth optimized).
+- **Evaluation Metrics (Test Set)**:
+  - Accuracy: **~73%**
+  - Precision (default = 1): **0.24**
+  - Recall (default = 1): **0.63**
+  - F1-score (default = 1): **0.35**
+  - ROC-AUC: **~0.76**
+- **Insights**:
+  - The model favors **recall** — it identifies more actual defaulters, even at the cost of false positives. This is valuable in lending contexts, where catching risky borrowers is more critical than approving every safe one.
+  - **Top predictors** of default include:
+    - Credit Score (lower strongly linked to default)
+    - Debt-to-Income Ratio (higher ratio = higher risk)
+    - Loan Amount & Interest Rate (larger, costlier loans are riskier)
+  - PCA retained ~95% of data variance with *16 components*, helping reduce dimensionality without major information loss.
+
+---
+
+### Conclusion
+
+This project demonstrates how machine learning can support **credit risk management** by identifying borrowers with a high likelihood of default. The optimized Random Forest model achieves strong recall, making it well-suited for early risk detection. Financial institutions could apply such models to **screen applications, refine risk-based pricing, and reduce portfolio losses**, ultimately improving lending strategies.
 
