@@ -35,7 +35,7 @@ insights
 
 ---
 
-### 4. [Loan Default Risk Prediction](./loan-defaul-risk-prediction)
+### 4. [Loan Default Risk Prediction](./loan-default-risk-prediction)
 Built with **Jupyter**, this notebook develops a machine learning model to predict the likelihood of loan defaults using borrower demographic, financial, and credit data. The model could potentially help financial institutions assess applicant risk, minimize credit losses, and improve lending strategies.
 
 ---
