@@ -20,7 +20,7 @@ This notebook develops a machine learning workflow to predict the likelihood of 
 ---
 
 ### Notebook
-[Open Jupyter Notebook](./09142025_Loan_Default_Prediction_Model_Build_Pipeline_DA.ipynb)
+[Open Jupyter Notebook]([./09142025_Loan_Default_Prediction_Model_Build_Pipeline_DA.ipynb](https://github.com/dare-afolabi/data-analytics-portfolio/blob/main/loan-default-risk-prediction/09142025_Loan_Default_Prediction_Model_Build_Pipeline_DA.ipynb))
 
 ---
 
