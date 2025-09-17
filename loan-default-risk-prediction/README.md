@@ -44,11 +44,11 @@ The dataset has been taken from [Coursera's Loan Default Prediction Challenge de
 
 ### Key Results
 - **Models Tested**: Logistic Regression, Random Forest, and hybrid variations with PCA.
-- **Best Performing Model**: Random Forest Classifier (depth optimized).
+- **Best Performing Model**: Voting Classifier.
 - **Evaluation Metrics (Test Set)**:
-  - Accuracy: **~73%**
-  - Precision (default = 1): **0.24**
-  - Recall (default = 1): **0.63**
+  - Accuracy: **70%**
+  - Precision (default = 1): **0.23**
+  - Recall (default = 1): **0.68**
   - F1-score (default = 1): **0.35**
   - ROC-AUC: **~0.76**
 - **Insights**:
