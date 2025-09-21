@@ -11,6 +11,7 @@ This notebook develops a machine learning workflow to predict the likelihood of 
 4.  Preprocessing
 5.  Principal Component Analysis (PCA)
 6.  Model Training and Evaluation
+7.  Business Insights
 
 ---
 
@@ -43,7 +44,7 @@ The dataset has been taken from [Coursera's Loan Default Prediction Challenge de
 ---
 
 ### Key Results
-- **Models Tested**: Logistic Regression, Random Forest, and hybrid variations with PCA.
+- **Models Tested**: Logistic Regression, Random Forest, and Voting Classifier with PCA.
 - **Best Performing Model**: Voting Classifier.
 - **Evaluation Metrics (Test Set)**:
   - Accuracy: **70%**
@@ -52,12 +53,14 @@ The dataset has been taken from [Coursera's Loan Default Prediction Challenge de
   - F1-score (default = 1): **0.35**
   - ROC-AUC: **~0.76**
 - **Insights**:
-  - The model favors **recall** — it identifies more actual defaulters, even at the cost of false positives. This is valuable in lending contexts, where catching risky borrowers is more critical than approving every safe one.
+  - The model favors **recall** — it identifies more actual defaulters, at the cost of false positives. This is valuable in lending contexts, where catching risky borrowers is more critical than approving every safe one.
   - **Top predictors** of default include:
-    - Credit Score (lower strongly linked to default)
-    - Debt-to-Income Ratio (higher ratio = higher risk)
-    - Loan Amount & Interest Rate (larger, costlier loans are riskier)
-  - PCA retained ~95% of data variance with *16 components*, helping reduce dimensionality without major information loss.
+    - Age (older borrowers are less likely to default)
+    - Interest Rate (costlier loans are riskier)
+    - Income (higher earners are less likely to default)
+    - Months Employed (stable income = less lielihood of default)
+    - Loan Amount and Interest Rate (larger loans are riskier)
+  - PCA retained ~95% of data variance with *16 components*, reducing dimensionality without major information loss.
 
 ---
 
