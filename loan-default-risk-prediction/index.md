@@ -64,7 +64,7 @@ The dataset has been taken from [Coursera's Loan Default Prediction Challenge de
     - Interest Rate (costlier loans are riskier)
     - Income (higher earners are less likely to default)
     - Months Employed (stable income = less lielihood of default)
-    - Loan Amount and Interest Rate (larger loans are riskier)
+    - Loan Amount (larger loans are riskier)
   - PCA retained ~95% of data variance with *16 components*, reducing dimensionality without major information loss.
 
 ---
