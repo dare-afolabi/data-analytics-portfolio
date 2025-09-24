@@ -8,7 +8,7 @@ title: "House Price Prediction | Python | Machine Learning | Data Scientist Port
 # House Prices Prediction Using Machine Learning
 
 ## Overview
-This project is my machine learning submission for the Kaggle competition House Prices: Advanced Regression Techniques. The objective is to predict the sale price of houses in Ames, Iowa, based on a dataset of 80 explanatory variables describing various aspects of residential homes.
+This project is my machine learning submission for the Kaggle competition House Prices: Advanced Regression Techniques. The objective is to predict the sale price of houses in Ames, Iowa, based on a dataset of 79 explanatory variables describing various aspects of residential homes.
 The project employs advanced regression techniques, including feature engineering, ensemble modeling, and stacking, to achieve competitive performance. The final submission uses a stacked regressor ensemble, yielding a cross-validation RMSE (log scale) of approximately 0.123 and a test RMSE of 0.129.
 
 [View Notebook](https://github.com/dare-afolabi/data-analytics-portfolio/blob/main/house-price-prediction/22092025_house_price_prediction_DA.ipynb)
@@ -20,7 +20,7 @@ The project employs advanced regression techniques, including feature engineerin
 
 ## Dataset
 The dataset consists of two CSV files:
-- **train.csv**: 1,460 training samples with 81 features (including the target SalePrice).
+- **train.csv**: 1,460 training samples with 81 columns (including the target SalePrice).
 - **test.csv**: 1,460 test samples with 80 features (excluding SalePrice).
 
 ## Approach
