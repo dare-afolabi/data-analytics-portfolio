@@ -17,36 +17,36 @@ The dataset consists of two CSV files:
 ## Approach
 The workflow follows a structured pipeline:
 	
-	1	**Data Loading and Splitting**: Load training data and split into train/validation sets (80/20) to prevent leakage.
+1 **Data Loading and Splitting**: Load training data and split into train/validation sets (80/20) to prevent leakage.
 	
-	2	**Exploratory Data Analysis (EDA)**:
+2 **Exploratory Data Analysis (EDA)**:
   - Distributions of SalePrice and LogSalePrice.
   - Histograms for numeric features.
   - Bar plots for categorical features.
 	
-	3	**Missing Value Handling**:
+3 **Missing Value Handling**:
   - Numeric: Median imputation by neighborhood for LotFrontage;
   - Zero-fill for other numeric columns like MasVnrArea.
   - Categorical: Prefix with “No_” (e.g., “No_Alley”).
 	
-	4	**Feature Engineering**:
+4 **Feature Engineering**:
   - Derived features: Total square footage (TotalSF), age (Age), bathrooms (Bathrooms), porch area (PorchArea).
   - Interactions: Quality-Size (QualSize), Quality-Condition (QualCond).
   - Encodings: Ordinal mapping for quality ratings; frequency encoding for high-cardinality nominals.
   - Location: Neighborhood median price mapping; urban/suburban/rural categorization.
 	
-	5	**Feature Transformation**:
+5 **Feature Transformation**:
   - Log1p transformation for skewed numerics to stabilize variance.
 	
-	6	**Categorical Encoding**:
+6 **Categorical Encoding**:
   - One-hot encoding for remaining nominals.
-	
-	7	**Modeling**:
+
+7 **Modeling**:
   - Base models: RidgeCV, RandomForestRegressor, GradientBoostingRegressor.
   - Ensemble: StackingRegressor with LinearRegression as meta-learner.
   - Evaluation: 5-fold cross validation and test RMSE on log scale.
 	
-	8	**Submission**: Predict on test set and generate CSV.
+8 **Submission**: Predict on test set and generate CSV.
 
 Visualizations include:
   - Target distribution (pre/post log transform).
