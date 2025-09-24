@@ -67,7 +67,6 @@ Visualizations include:
 ## Models and Performance
 ### Base Models Evaluation
 |Model              | CV RMSE    | Test RMSE |
-|-------------------|------------|-----------|
 |Ridge            🥈| 0.134726   | 0.134243  |
 |RandomForest     🥉| 0.139180   | 0.144454  |
 |GradientBoosting 🥇| 0.125139   | 0.134765  |
@@ -90,7 +89,6 @@ Residual analysis indicates mild heteroscedasticity at higher prices, with Gradi
 
 Sample submission predictions:
 |Id   | SalePrice |
-|-----|-----------|
 |1461 | 118,987   |
 |1462 | 158,082   |
 
