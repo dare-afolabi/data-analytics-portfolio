@@ -103,7 +103,7 @@ Sample submission predictions:<br>
   - seaborn==0.13.1
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/dare-afolabi/data-analytics-portfolio/blob/main/house-price-prediction/LICENSE) file for details.
 
 ### Author
 - **Dare Afolabi**
