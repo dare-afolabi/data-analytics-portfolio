@@ -29,15 +29,19 @@ View on [GitHub Pages](https://dare-afolabi.github.io/data-analytics-portfolio/)
 - Built with **Google Sheets** 
 - Covers spending trends, volatility analysis, and transaction patterns  
 - Highlights fixed vs. variable expenses and high-frequency vs. high-value categories  
-- Includes an interactive filter, pivot table–driven insights, and conditional formatting
-
-insights  
+- Includes an interactive filter, pivot table–driven insights, and conditional formatting  
 
 ---
 
 ### 4. [Loan Default Risk Prediction](./loan-default-risk-prediction)
 ![Feature Importance Plot](./loan-default-risk-prediction/FeatureImportance-RandomForest.jpg)
 Built with **Jupyter**, this notebook develops a machine learning model to predict the likelihood of loan defaults using borrower demographic, financial, and credit data. The model could potentially help financial institutions assess applicant risk, minimize credit losses, and improve lending strategies.
+
+---
+
+### 5. [Loan Default Risk Prediction](./loan-default-risk-prediction)
+![Feature Importance Plot](./loan-default-risk-prediction/FeatureImportance-RandomForest.jpg)
+This project tackles the Kaggle “House Prices: Advanced Regression Techniques” competition by predicting house sale prices using 1,460 training samples and 80 features. Base models **RidgeCV, Random Forest, and Gradient Boosting** are assessed via cross-validation and log-RMSE, then ensembled in a **Stacking Regressor**. Feature importance scores underscore quality ratings, property size, and neighborhood prices as primary predictors of house prices.
 
 ---
 
