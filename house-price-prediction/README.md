@@ -4,6 +4,8 @@
 This project is my machine learning submission for the Kaggle competition House Prices: Advanced Regression Techniques. The objective is to predict the sale price of houses in Ames, Iowa, based on a dataset of 79 explanatory variables describing various aspects of residential homes.
 The project employs advanced regression techniques, including feature engineering, ensemble modeling, and stacking, to achieve competitive performance. The final submission uses a stacked regressor ensemble, yielding a cross-validation RMSE (log scale) of approximately 0.123 and a test RMSE of 0.129.
 
+[View Notebook](./22092025_house_price_prediction_DA.ipynb)
+
 - **Competition Link**: [Kaggle House Prices Competition](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques)
 - **Author**: Dare Afolabi ([Kaggle Profile](https://www.kaggle.com/dafolabi))
 - **Submission Date**: September 24, 2025
