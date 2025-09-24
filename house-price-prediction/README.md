@@ -14,7 +14,7 @@ The project employs advanced regression techniques, including feature engineerin
 ## Dataset
 The dataset consists of two CSV files:
 - **train.csv**: 1,460 training samples with 81 columns (including the target SalePrice).
-- **test.csv**: 1,459 test samples with 80 features (excluding SalePrice).
+- **test.csv**: 1,459 test samples with 80 columns (excluding SalePrice).
 
 ## Approach
 The workflow follows a structured pipeline:
