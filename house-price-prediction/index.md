@@ -87,7 +87,7 @@ Residual analysis indicates mild heteroscedasticity at higher prices, with Gradi
 - Key drivers: Property quality, size, and neighborhood prestige.
 - Log transformation effectively handles right-skewed SalePrice (mean: $181,442; median: $165,000).
 
-Sample submission predictions:
+Sample submission predictions:<br>
 |Id   | SalePrice |<br>
 |1461 | 118,987   |<br>
 |1462 | 158,082   |
