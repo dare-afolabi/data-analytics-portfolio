@@ -1,8 +1,7 @@
 # House Prices Prediction Using Machine Learning
-[image](https://scikit-learn.org/)
 
 ## Overview
-This project is my machine learning [submission](./22092025_house_price_prediction_DA.ipynb) for the Kaggle competition House Prices: Advanced Regression Techniques. The objective is to predict the sale price of houses in Ames, Iowa, based on a dataset of 79 explanatory variables describing various aspects of residential homes.
+This project is my machine learning submission for the Kaggle competition House Prices: Advanced Regression Techniques. The objective is to predict the sale price of houses in Ames, Iowa, based on a dataset of 79 explanatory variables describing various aspects of residential homes.
 The project employs advanced regression techniques, including feature engineering, ensemble modeling, and stacking, to achieve competitive performance. The final submission uses a stacked regressor ensemble, yielding a cross-validation RMSE (log scale) of approximately 0.123 and a test RMSE of 0.129.
 
 - **Competition Link**: [Kaggle House Prices Competition](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques)
@@ -17,28 +16,36 @@ The dataset consists of two CSV files:
 
 ## Approach
 The workflow follows a structured pipeline:
+	
 	1	**Data Loading and Splitting**: Load training data and split into train/validation sets (80/20) to prevent leakage.
+	
 	2	**Exploratory Data Analysis (EDA)**:
   - Distributions of SalePrice and LogSalePrice.
   - Histograms for numeric features.
   - Bar plots for categorical features.
+	
 	3	**Missing Value Handling**:
   - Numeric: Median imputation by neighborhood for LotFrontage;
   - Zero-fill for other numeric columns like MasVnrArea.
   - Categorical: Prefix with “No_” (e.g., “No_Alley”).
+	
 	4	**Feature Engineering**:
   - Derived features: Total square footage (TotalSF), age (Age), bathrooms (Bathrooms), porch area (PorchArea).
   - Interactions: Quality-Size (QualSize), Quality-Condition (QualCond).
   - Encodings: Ordinal mapping for quality ratings; frequency encoding for high-cardinality nominals.
   - Location: Neighborhood median price mapping; urban/suburban/rural categorization.
+	
 	5	**Feature Transformation**:
   - Log1p transformation for skewed numerics to stabilize variance.
+	
 	6	**Categorical Encoding**:
   - One-hot encoding for remaining nominals.
+	
 	7	**Modeling**:
   - Base models: RidgeCV, RandomForestRegressor, GradientBoostingRegressor.
   - Ensemble: StackingRegressor with LinearRegression as meta-learner.
   - Evaluation: 5-fold cross validation and test RMSE on log scale.
+	
 	8	**Submission**: Predict on test set and generate CSV.
 
 Visualizations include:
@@ -76,7 +83,6 @@ Sample submission predictions:
 |Id   | SalePrice |
 |-----|-----------|
 |1461 | 118,987   |
-|-----|-----------|
 |1462 | 158,082   |
 
 ## Requirements
