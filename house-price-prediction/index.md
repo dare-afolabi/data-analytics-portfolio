@@ -66,9 +66,9 @@ Visualizations include:
 
 ## Models and Performance
 ### Base Models Evaluation
-|Model              | CV RMSE    | Test RMSE |
-|Ridge            🥈| 0.134726   | 0.134243  |
-|RandomForest     🥉| 0.139180   | 0.144454  |
+|Model              | CV RMSE    | Test RMSE |<br>
+|Ridge            🥈| 0.134726   | 0.134243  |<br>
+|RandomForest     🥉| 0.139180   | 0.144454  |<br>
 |GradientBoosting 🥇| 0.125139   | 0.134765  |
 
 ### Stacked Ensemble
@@ -88,8 +88,8 @@ Residual analysis indicates mild heteroscedasticity at higher prices, with Gradi
 - Log transformation effectively handles right-skewed SalePrice (mean: $181,442; median: $165,000).
 
 Sample submission predictions:
-|Id   | SalePrice |
-|1461 | 118,987   |
+|Id   | SalePrice |<br>
+|1461 | 118,987   |<br>
 |1462 | 158,082   |
 
 ## Requirements
