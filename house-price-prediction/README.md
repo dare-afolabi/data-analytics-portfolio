@@ -1,5 +1,5 @@
 # House Prices Prediction Using Machine Learning
-￼ ￼ ￼(https://scikit-learn.org/)
+[image](https://scikit-learn.org/)
 
 ## Overview
 This project is my machine learning [submission](./22092025_house_price_prediction_DA.ipynb) for the Kaggle competition House Prices: Advanced Regression Techniques. The objective is to predict the sale price of houses in Ames, Iowa, based on a dataset of 79 explanatory variables describing various aspects of residential homes.
