@@ -40,7 +40,7 @@ Built with **Jupyter**, this notebook develops a machine learning model to predi
 ---
 
 ### 5. [House Price Prediction](./house-price-prediction)
-![Feature Importance Plot](./loan-default-risk-prediction/FeatureImportance-RandomForest.jpg)
+![Feature Importance Plot](./house-price-prediction/sale_price_histogram.png)
 This project tackles the Kaggle “House Prices: Advanced Regression Techniques” competition by predicting house sale prices using 1,460 training samples and 80 features. Base models **RidgeCV, Random Forest, and Gradient Boosting** are assessed via cross-validation and log-RMSE, then ensembled in a **Stacking Regressor**. Feature importance scores underscore quality ratings, property size, and neighborhood prices as primary predictors of house prices.
 
 ---
