@@ -5,7 +5,7 @@ title: "House Price Prediction | Python | Machine Learning | Data Scientist Port
 
 
 
-# House Prices Prediction Using Machine Learning
+# House Price Prediction Using Machine Learning
 
 ## Overview
 This project is my machine learning submission for the Kaggle competition House Prices: Advanced Regression Techniques. The objective is to predict the sale price of houses in Ames, Iowa, based on a dataset of 79 explanatory variables describing various aspects of residential homes.
