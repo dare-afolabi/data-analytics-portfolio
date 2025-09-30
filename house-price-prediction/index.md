@@ -1,6 +1,9 @@
 ---
-title: "House Price Prediction | Python | Machine Learning | Data Scientist Portfolio" 
+title: "House Price Prediction Using Machine Learning"
+tools: ["Python", "iPython" "Jupyter Notebook"]
+tags: ["Regression", "Predictive Modelling"]
 ---
+
 [⏮️ Back to Portfolio Home](../README.md); [⬅️ Previous Project](../loan-default-risk-prediction/index.md)
 
 
