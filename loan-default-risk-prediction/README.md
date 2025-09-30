@@ -1,3 +1,9 @@
+---
+title: "Loan Default Risk Prediction"
+tools: ["Python", "iPython", "Jupyter Notebook"]
+tags: ["Machine Learning", "Predictive Modelling"]
+---
+
 # Loan Default Risk Prediction 
 
 This notebook develops a machine learning workflow to predict the likelihood of loan defaults using borrower demographic, financial, and credit data. The model can help financial institutions assess applicant risk, minimize credit losses, and improve lending strategies.
