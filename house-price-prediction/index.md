@@ -1,6 +1,6 @@
 ---
 title: "House Price Prediction Using Machine Learning"
-tools: ["Python", "iPython" "Jupyter Notebook"]
+tools: ["Python", "iPython", "Jupyter Notebook"]
 tags: ["Regression", "Predictive Modelling"]
 ---
 
