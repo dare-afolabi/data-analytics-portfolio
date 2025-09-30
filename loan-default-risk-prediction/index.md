@@ -1,6 +1,9 @@
 ---
-title: "Loan Default Risk Prediction | Python | Machine Learning | Data Analyst Portfolio" 
+title: "Loan Default Risk Prediction"
+tools: ["Python", "iPython", "Jupyter Notebook"]
+tags: ["Machine Learning", "Predictive Modelling"]
 ---
+
 [⏮️ Back to Portfolio Home](../README.md); [⬅️ Previous Project](../personal-finance-analysis/index.md); [➡️ Next Project](../house-price-prediction/index.md)
 
 
