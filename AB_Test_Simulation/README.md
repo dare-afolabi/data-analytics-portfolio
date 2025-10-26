@@ -32,8 +32,8 @@ The outcome can represent performance indicators such as **revenue, engagement t
 
 ## Statistical Methods
 
-1. **Welch’s t-test** — compares mean outcomes between groups without controlling for baseline differences.  
-2. **Adjusted regression model** — controls for baseline performance to isolate the true treatment effect.
+1. **Welch’s t-test**: compares mean outcomes between groups without controlling for baseline differences.  
+2. **Adjusted regression model**: controls for baseline performance to isolate the true treatment effect.
 
 ---
 
@@ -41,10 +41,10 @@ The outcome can represent performance indicators such as **revenue, engagement t
 
 | Model | Estimate (Treatment Lift) | SE | Test Statistic | *p*-value | 95% CI | Effect Size (Cohen’s *d*) |
 |:------|---------------------------:|--:|---------------:|-----------:|-------:|---------------------------:|
-| Welch’s t-test | 10.21 | – | 2.98 | 0.0029 | [4.84, 17.51] | 0.18 (small) |
-| Adjusted model | **10.12** | 0.16 | 63.89 | < 0.001 | – | – |
+| Welch’s t-test | 11.17 | – | 3.46 | < 0.001 | [4.84, 17.51] | 0.155 (small) |
+| Adjusted model | **10.12** | 0.45 | 22.31 | < 0.001 | – | – |
 
-> The adjusted model more accurately captures the true lift (**≈10.12 units**) by accounting for baseline variability,  
+> The adjusted model more accurately captures the true lift (**~10.12 units**) by accounting for baseline variability,  
 > while the t-test provides a simpler but less precise estimate.
 
 ---
@@ -57,7 +57,7 @@ The outcome can represent performance indicators such as **revenue, engagement t
 
 ---
 
-## 🛠️ Reproducibility
+## Reproducibility
 
 This simulation uses:
 
