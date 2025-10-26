@@ -10,11 +10,13 @@ View on [GitHub Pages](https://dare-afolabi.github.io/data-analytics-portfolio/)
 
 ### 1. [Digital Marketing Analysis](./digital-marketing-analysis)
 ![Digital Marketing Analysis Dashboard Screenshot](./digital-marketing-analysis/dashboard.jpg)  
--	Built with Google Sheets
-	Covers campaign performance, audience segmentation, and ROI analysis
+-	Built with **Google Sheets**
+-	Covers campaign performance, audience segmentation, and ROI analysis
 - Tracks impressions, clicks, conversions, CPA, and ROAS across channels
 -	Highlights top-performing campaigns, underperforming audiences, and funnel drop-offs
 - Includes interactive filters, pivot tables, and dynamic charts for deep dives
+
+---
 
 ### 2. [E-commerce Sales Analysis](./ecommerce-sales-analysis)
 ![E-commerce Dashboard Screenshot](./ecommerce-sales-analysis/dashboard.jpg)  
@@ -35,7 +37,7 @@ View on [GitHub Pages](https://dare-afolabi.github.io/data-analytics-portfolio/)
 
 ### 4. [Loan Default Risk Prediction](./loan-default-risk-prediction)
 ![Feature Importance Plot](./loan-default-risk-prediction/FeatureImportance-RandomForest.jpg)
-Built with **Jupyter**, this notebook develops a machine learning model to predict the likelihood of loan defaults using borrower demographic, financial, and credit data. The model could potentially help financial institutions assess applicant risk, minimize credit losses, and improve lending strategies.
+Built with **Python**, this notebook develops a machine learning model to predict the likelihood of loan defaults using borrower demographic, financial, and credit data. The model could potentially help financial institutions assess applicant risk, minimize credit losses, and improve lending strategies.
 
 ---
 
