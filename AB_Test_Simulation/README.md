@@ -49,6 +49,16 @@ The outcome can represent performance indicators such as **revenue, engagement t
 
 ---
 
+### **Figures**
+
+![Figure 1](./baseline_distribution.png)
+**Figure 1.** Baseline distribution by group (before treatment)  
+
+![Figure 2](./outcome_distribution.png)
+**Figure 2.** Post-treatment outcome distribution by group  
+
+---
+
 ## Interpretation
 
 - The treatment group achieved a **significant performance increase** over control.  
@@ -69,16 +79,6 @@ import matplotlib.pyplot as plt
 from scipy import stats
 import statsmodels.formula.api as smf
 ```
-
----
-
-### **Figures**
-
-![Figure 1](./baseline_distribution.png)
-**Figure 1.** Baseline distribution by group (before treatment)  
-
-![Figure 2](./outcome_distribution.png)
-**Figure 2.** Post-treatment outcome distribution by group  
 
 ---
 
