@@ -45,6 +45,12 @@ This project tackles the Kaggle â€œHouse Prices: Advanced Regression Techniquesâ
 
 ---
 
+### 6. [A/B Test Simulation](./AB_Test_Simulation)
+![Baseline Distribution](./AB_Test_Simulation/baseline_distribution.png)
+Built with Python, this notebook simulates a controlled A/B test to evaluate the impact of a treatment intervention on user outcomes such as revenue or engagement. The analysis compares unadjusted and baseline-adjusted models, showing how ANCOVA more accurately captures the true treatment lift than a simple t-test. This approach demonstrates how careful statistical modeling can improve experimental accuracy, interpretability, and decision-making.
+
+---
+
 Stay tuned as I add more projects in areas like **customer retention and predictive modelling**.
 
 View on [GitHub Pages](https://dare-afolabi.github.io/data-analytics-portfolio/)
