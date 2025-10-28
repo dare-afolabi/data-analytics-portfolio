@@ -24,7 +24,7 @@ The outcome can represent performance indicators such as **revenue, engagement t
 ---
 
 ## Notebook
-[View complete analysis here](./AB_Test_Simulation_DA_24102025.ipynb)
+[View complete analysis here](https://github.com/dare-afolabi/data-analytics-portfolio/blob/4becaca8c4a17001113bac17c1d13d9760f70119/AB_Test_Simulation/AB_Test_Simulation_DA_24102025.ipynb)
 
 ---
 
