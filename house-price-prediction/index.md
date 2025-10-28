@@ -110,7 +110,7 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 
 ### Author
 - **Dare Afolabi**
-- **Email**: [dafolabi@example.com]
+- **Email**: [dare.afolabi@outlook.com](dare.afolabi@outlook.com)
 - **Kaggle**: dafolabi
 - **LinkedIn**: [dare-afolabi-070826383](https://www.linkedin.com/in/dare-afolabi-070826383)
 
