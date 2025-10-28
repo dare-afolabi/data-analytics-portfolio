@@ -62,7 +62,7 @@ The outcome can represent performance indicators such as **revenue, engagement t
 **Figure 1.** Baseline distribution by group (before treatment)  
 
 ![Figure 2](./outcome_distribution.png)
-**Figure 2.** Post-treatment outcome distribution by group  
+**Figure 2.** Post-treatment outcome (winsorized) distribution by group  
 
 ---
 
