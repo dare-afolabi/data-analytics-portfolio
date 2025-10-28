@@ -14,8 +14,6 @@ keywords:
   - simulation
 ---
 
-[⏮️ Back to Portfolio Home](../README.md); [⬅️ Previous Project](../house-price-prediction/index.md)
-
 # A/B Test Simulation: Treatment Effect Evaluation
 
 This simulation models a **controlled A/B test** to evaluate the effect of a treatment intervention on a continuous outcome metric.  
