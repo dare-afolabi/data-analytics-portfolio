@@ -4,7 +4,7 @@ tools: ["Python", "iPython", "Jupyter Notebook"]
 tags: ["Regression", "Predictive Modelling"]
 ---
 
-[⏮️ Back to Portfolio Home](../README.md); [⬅️ Previous Project](../loan-default-risk-prediction/index.md)
+[⏮️ Back to Portfolio Home](../README.md); [⬅️ Previous Project](../loan-default-risk-prediction/index.md)[➡️ Next Project](../AB_Test_Simulation)
 
 
 
